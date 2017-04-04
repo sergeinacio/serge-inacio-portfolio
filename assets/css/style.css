@@ -1,0 +1,18 @@
+html, body {
+	height:100%;
+}
+
+.fill-v-50 {
+	min-height: 50vh;
+}
+
+.bg-dark {
+	background: #000;
+	color:white;
+}
+
+.light {
+	background: #fff;
+	color: black;
+}
+
