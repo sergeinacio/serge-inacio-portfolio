@@ -2,12 +2,14 @@ html, body {
 	height:100%;
 }
 
-.fill-v-50 {
-	min-height: 50vh;
+/* GENERAL */
+.fill-v-100 {
+	min-height: 100vh;
 }
 
-.bg-dark {
-	background: #000;
+.bg-dark-noise {
+	background: #252525
+				url("../img/noise.png") repeat;
 	color:white;
 }
 
