@@ -12,7 +12,7 @@ body {
 /* Set min height */
 
 .fill-v-100 {
-	min-height: 100vh;
+	height: 100vh;
 }
 
 /* Backgrounds */
@@ -28,6 +28,12 @@ body {
 
 /*Font colors */
 
+.font-red {
+	color: #F92672;
+}
+.font-light-green {
+	color: #A6E22A;
+}
 .font-light-blue {
 	color: #66D9EF;
 }
@@ -52,7 +58,7 @@ body {
 	background: -webkit-linear-gradient(top, #606c88 0%,#3f4c6b 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, #606c88 0%,#3f4c6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
-	border: solid 1px gray;
+	border: solid 1px #606c88;
 	-webkit-border-radius: 5px;
 	   -moz-border-radius: 5px;
 			border-radius: 5px;
@@ -63,7 +69,11 @@ body {
 #intro {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 30px;
 	text-align: center;
+}
+
+#intro p {
+	margin: 0px;
 }
