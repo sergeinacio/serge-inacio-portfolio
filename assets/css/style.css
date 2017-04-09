@@ -17,7 +17,7 @@ a, a:hover {
 /* Set min height */
 
 .fill-v-100 {
-	height: 100vh;
+	min-height: 100vh;
 }
 
 /* Backgrounds */
@@ -28,7 +28,13 @@ a, a:hover {
 }
 .bg-light-noise {
 	background: #dadada
-				url("../img/noise-light.png") repeat;;
+				url("../img/noise-light.png") repeat;
+	color: black;
+}
+
+.bg-white-noise {
+	background: white
+				url("../img/noise-white.png") repeat;
 	color: black;
 }
 
@@ -90,4 +96,17 @@ a, a:hover {
 
 #intro p {
 	margin: 0px;
+}
+
+.circular-div {
+	overflow: hidden;
+	-webkit-border-radius: 100%;
+	   -moz-border-radius: 100%;
+			border-radius: 100%;
+}
+
+/* My Work */
+#my-work p {
+	font-size: 18px;
+	padding: 0 50px;
 }
